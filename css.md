@@ -78,13 +78,13 @@ border-color: coral;
 
 ```css
 /*To add padding  */
-padding: 50px;
+padding: top;
 
 /*To add margin */
 margin: 35px;
 
 /*To add border */
-border-radius: 50px ;
+border: 50px ;
 ```
 
 ### Font
