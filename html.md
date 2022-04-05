@@ -20,7 +20,7 @@ Every attribute added would have a name, then `=` sign then the value of the att
 For example, the **style** attribute can be added to the following tag as follows
 
 ```html
-<TAG color="background-color: red;"> CONTENT </TAG>
+<TAG style="background-color: red;"> CONTENT </TAG>
 ```
 
 ## HTML structure
