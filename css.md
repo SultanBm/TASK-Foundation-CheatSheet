@@ -122,13 +122,13 @@ height: 300px;
 
 ```css
 /*
-To make everything inside a container relative to it. we use: position: ___
+To make everything inside a container relative to it. we use: position: relative
 */
 position: relative ;
 
-/*To make any item in the container doesn't care about the container content, and it doesn't mind being on top of the over elements we use position: ____
+/*To make any item in the container doesn't care about the container content, and it doesn't mind being on top of the over elements we use position: absolute
 This is perfect to put things stacking on top of each other
-Making the position ____ allows you to use the following properties
+Making the position absolute allows you to use the following properties
 - top:
 - bottom: 
 - left: 
@@ -137,7 +137,7 @@ Making the position ____ allows you to use the following properties
 */
 position: absolute;
 
-/*When position is (absolute), you can put things stacking on each other, but you can specify which element should be on visible on the top of another element, we use ___ and add a higher number to it */
+/*When position is (absolute), you can put things stacking on each other, but you can specify which element should be on visible on the top of another element, we use z-index and add a higher number to it */
 z-index: 1000;
 ```
 
